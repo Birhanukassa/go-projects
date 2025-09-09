@@ -1,0 +1,10 @@
+# Go build artifacts
+pkg/
+src/
+*.tar.gz
+
+# Kubernetes repo (tracked separately)
+kubernetes/
+
+# Go installation
+go/
