@@ -33,7 +33,12 @@
         "editor.tabSize": 4,
         "files.eol": "\n",
         "git.detectSubmodules": false,
-        "scm.defaultViewMode": "tree"
+        "scm.defaultViewMode": "tree",
+        "scm.repositories.visible": 10,
+        "scm.repositories.sortOrder": "path",
+        "scm.alwaysShowRepositories": true,
+        "scm.autoReveal": true,
+        "terminal.integrated.cwd": "${workspaceFolder}"
     },
     "extensions": {
         "recommendations": [
