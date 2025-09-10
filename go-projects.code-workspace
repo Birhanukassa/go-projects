@@ -1,0 +1,44 @@
+{
+    "folders": [
+        {
+            "name": "Kubernetes (Main)",
+            "path": "./kubernetes"
+        },
+        {
+            "name": "Learning (Experiments)",
+            "path": "./learning"
+        },
+        {
+            "name": "Go Tools & Config",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "go.goroot": "/home/birhanu/go-projects/go",
+        "go.gopath": "/home/birhanu/go-projects",
+        "go.toolsGopath": "/home/birhanu/go-projects",
+        "go.alternateTools": {
+            "go": "/home/birhanu/go-projects/go/bin/go",
+            "gofmt": "/home/birhanu/go-projects/bin/gofumpt",
+            "goimports": "/home/birhanu/go-projects/bin/goimports",
+            "gopls": "/home/birhanu/go-projects/bin/gopls",
+            "dlv": "/home/birhanu/go-projects/bin/dlv",
+            "staticcheck": "/home/birhanu/go-projects/bin/staticcheck",
+            "golangci-lint": "/home/birhanu/go-projects/bin/golangci-lint"
+        },
+        "go.useLanguageServer": true,
+        "go.formatTool": "gofumpt",
+        "go.lintTool": "golangci-lint",
+        "go.testTimeout": "30s",
+        "editor.tabSize": 4,
+        "files.eol": "\n",
+        "git.detectSubmodules": false,
+        "scm.defaultViewMode": "tree"
+    },
+    "extensions": {
+        "recommendations": [
+            "golang.go",
+            "ms-vscode.vscode-go"
+        ]
+    }
+}

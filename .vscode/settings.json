@@ -1,0 +1,14 @@
+{
+    "go.goroot": "/home/birhanu/go-projects/go",
+    "go.gopath": "/home/birhanu/go-projects",
+    "go.toolsGopath": "/home/birhanu/go-projects",
+    "go.alternateTools": {
+        "go": "/home/birhanu/go-projects/go/bin/go",
+        "gofmt": "/home/birhanu/go-projects/bin/gofumpt",
+        "golint": "/home/birhanu/go-projects/bin/golangci-lint"
+    },
+    "go.useLanguageServer": true,
+    "go.formatTool": "gofumpt",
+    "go.lintTool": "golangci-lint",
+    "go.autocompleteUnimportedPackages": true
+}

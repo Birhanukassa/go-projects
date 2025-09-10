@@ -6,5 +6,10 @@ src/
 # Kubernetes repo (tracked separately)
 kubernetes/
 
-# Go installation
+# Go installation and tools
 go/
+bin/
+
+# Setup files
+.bashrc*
+test.go
