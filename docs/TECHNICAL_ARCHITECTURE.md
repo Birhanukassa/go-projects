@@ -237,15 +237,15 @@ export PATH=/home/birhanu/go-projects/bin:$PATH
 │                                                             │
 │  Target: All branches                                       │
 │  Rules:                                                     │
-│  ├── Require pull request before merging                   │
+│  ├── Require pull request before merging                    │
 │  ├── Block force pushes                                     │
 │  ├── Require conversation resolution                        │
-│  └── Squash and merge (clean history)                      │
+│  └── Squash and merge (clean history)                       │
 │                                                             │
-│  Bypass: Repository admin (owner)                          │
-│  ├── Emergency access maintained                           │
-│  ├── Operational flexibility preserved                     │
-│  └── Professional practices encouraged                     │
+│  Bypass: Repository admin (owner)                           │
+│  ├── Emergency access maintained                            │
+│  ├── Operational flexibility preserved                      │
+│  └── Professional practices encouraged                      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
