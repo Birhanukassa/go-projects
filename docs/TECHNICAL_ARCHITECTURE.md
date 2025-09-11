@@ -20,7 +20,7 @@
                       ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                 GitHub Actions (Cloud)                      │
-│              Daily Sync @ 3 AM UTC                         │
+│              Daily Sync @ 3 AM UTC                          │
 └─────────────────────┬───────────────────────────────────────┘
                       │
                       ▼
@@ -31,17 +31,17 @@
                       │
                       ▼
 ┌─────────────────────────────────────────────────────────────┐
-│              Local Development Environment                   │
+│              Local Development Environment                  │
 │                 (go-projects/)                              │
-│  ┌─────────────────┐  ┌─────────────────┐                  │
-│  │   kubernetes/   │  │    learning/    │                  │
+│  ┌─────────────────┐  ┌─────────────────┐                   │
+│  │   kubernetes/   │  │    learning/    │                   │
 │  │   (master)      │  │(test-experiments)│                  │
-│  │  Production     │  │  Experiments    │                  │
-│  └─────────────────┘  └─────────────────┘                  │
+│  │  Production     │  │  Experiments    │                   │
+│  └─────────────────┘  └─────────────────┘                   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 🔧 Technical Design Decisions
+##  Technical Design Decisions
 
 ### 1. Git Worktrees vs Multiple Clones
 
@@ -237,15 +237,15 @@ export PATH=/home/birhanu/go-projects/bin:$PATH
 │                                                             │
 │  Target: All branches                                       │
 │  Rules:                                                     │
-│  ├── Require pull request before merging                   │
+│  ├── Require pull request before merging                    │
 │  ├── Block force pushes                                     │
 │  ├── Require conversation resolution                        │
-│  └── Squash and merge (clean history)                      │
+│  └── Squash and merge (clean history)                       │
 │                                                             │
-│  Bypass: Repository admin (owner)                          │
-│  ├── Emergency access maintained                           │
-│  ├── Operational flexibility preserved                     │
-│  └── Professional practices encouraged                     │
+│  Bypass: Repository admin (owner)                           │
+│  ├── Emergency access maintained                            │
+│  ├── Operational flexibility preserved                      │
+│  └── Professional practices encouraged                      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -285,7 +285,7 @@ export PATH=/home/birhanu/go-projects/bin:$PATH
 - **Branch tracking**: Monitor all worktree branches
 - **Unified development**: One workspace, multiple contexts
 
-## 📊 Performance & Reliability Metrics
+##  Performance & Reliability Metrics
 
 ### Sync Performance
 ```bash
@@ -320,7 +320,7 @@ cd ~/kubernetes-main/        # <1 second
 cd ~/kubernetes-experiments/ # <1 second + mental context switch
 ```
 
-## 🔒 Security Architecture
+##  Security Architecture
 
 ### Threat Model
 1. **Malicious contributors**: Public repo allows anyone to fork/PR
