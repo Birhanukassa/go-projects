@@ -3,10 +3,6 @@
 > **Professional Go development setup with automated syncing, branch protection, and safe experimentation capabilities.**
 
 [![Sync Status](https://github.com/Birhanukassa/go-projects/actions/workflows/auto-sync.yml/badge.svg)](https://github.com/Birhanukassa/go-projects/actions/workflows/auto-sync.yml)
-<<<<<<< HEAD
-=======
-
->>>>>>> 3eab2ce2239e349a571fe66fe920aa85f70560ca
 
 ## Overview
 
