@@ -4,7 +4,7 @@
 
 [![Sync Status](https://github.com/Birhanukassa/kubernetes/actions/workflows/auto-sync.yml/badge.svg)](https://github.com/Birhanukassa/kubernetes/actions/workflows/auto-sync.yml)
 
-## 🎯 Overview
+##  Overview
 
 This repository contains a complete development environment for contributing to Kubernetes, featuring:
 
@@ -14,7 +14,7 @@ This repository contains a complete development environment for contributing to 
 - **Professional Workflow** - Branch protection and PR requirements showcase best practices
 - **Complete Toolchain** - 21 development tools for Kubernetes contribution
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone and setup
@@ -32,7 +32,7 @@ cd kubernetes          # For serious contributions
 cd learning           # For experiments and learning
 ```
 
-## 🔄 Sync Management
+##  Sync Management
 
 ### Automatic Syncing
 - **GitHub Actions**: Daily sync at 3 AM UTC
@@ -45,14 +45,14 @@ cd learning           # For experiments and learning
 ./resume-experiments.sh   # Resume test-experiments sync
 ```
 
-## 🛡️ Security Features
+##  Security Features
 
 - **Branch Protection**: All branches require PR workflow
 - **Owner Bypass**: Emergency access for repository owner
 - **Force Push Prevention**: Protects against accidental history rewriting
 - **Automated Validation**: Continuous sync monitoring
 
-## 📁 Structure
+##  Structure
 
 ```
 go-projects/
@@ -63,20 +63,20 @@ go-projects/
 └── docs/             # Environment documentation
 ```
 
-## 🎓 Learning Path
+##  Learning Path
 
 1. **Explore** - Use `learning/` for safe experimentation
 2. **Learn** - Follow Kubernetes development patterns
 3. **Contribute** - Create features in `kubernetes/` 
 4. **Showcase** - Professional workflow visible to employers
 
-## 📊 Monitoring
+##  Monitoring
 
 - **Sync Status**: [GitHub Actions](https://github.com/Birhanukassa/kubernetes/actions)
 - **Tool Health**: `./check-dev-tools.sh`
 - **Environment Status**: `./daily-sync-check.sh`
 
-## 🔧 Development Workflow
+##  Development Workflow
 
 ### Professional Contribution Process
 See [Branching & PR Workflow Guide](docs/BRANCHING_WORKFLOW.md) for complete workflow diagram, exact git commands, and professional PR checklist.
@@ -96,7 +96,7 @@ git checkout -b learn-api-internals
 ./resume-experiments.sh  # When finished
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - **[Development Environment](docs/DEVELOPMENT_ENVIRONMENT.md)** - Complete setup documentation
 - **[Branching & PR Workflow](docs/BRANCHING_WORKFLOW.md)** - Professional contribution workflow
@@ -104,7 +104,7 @@ git checkout -b learn-api-internals
 - **[Environment Rules](.amazonq/rules/)** - AI assistant guidelines
 - **[Tool Reference](DEVELOPMENT_TOOLS_REFERENCE.md)** - Complete tool documentation
 
-## 🏆 Professional Benefits
+##  Professional Benefits
 
 - **Visible Contributions** - Public showcase of Kubernetes development skills
 - **Best Practices** - Demonstrates professional development workflows
