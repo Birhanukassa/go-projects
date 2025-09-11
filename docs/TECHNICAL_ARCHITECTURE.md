@@ -285,7 +285,7 @@ export PATH=/home/birhanu/go-projects/bin:$PATH
 - **Branch tracking**: Monitor all worktree branches
 - **Unified development**: One workspace, multiple contexts
 
-## 📊 Performance & Reliability Metrics
+##  Performance & Reliability Metrics
 
 ### Sync Performance
 ```bash
@@ -320,7 +320,7 @@ cd ~/kubernetes-main/        # <1 second
 cd ~/kubernetes-experiments/ # <1 second + mental context switch
 ```
 
-## 🔒 Security Architecture
+##  Security Architecture
 
 ### Threat Model
 1. **Malicious contributors**: Public repo allows anyone to fork/PR
