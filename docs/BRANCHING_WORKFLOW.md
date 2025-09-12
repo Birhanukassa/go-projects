@@ -1,6 +1,6 @@
 # Branching & PR Workflow Guide
 
-## 🔄 Branching Workflow Diagram
+##  Branching Workflow Diagram
 
 ```
 ┌─────────────────────┐        git pull upstream/master
@@ -42,7 +42,7 @@
 └─────────────────────┘
 ```
 
-## 📋 Step-by-Step Commands
+##  Step-by-Step Commands
 
 ### 1. Ensure Remotes and Worktrees
 ```bash
@@ -140,7 +140,7 @@ git branch -d fix/scheduler-memory-leak
 git push origin --delete fix/scheduler-memory-leak    # optional remove remote branch
 ```
 
-## ✅ Quick Checklist (Daily Habit)
+##  Quick Checklist (Daily Habit)
 
 - [ ] Verify remotes: `git remote -v`
 - [ ] Sync master with upstream before starting: `git fetch upstream; git merge --ff-only upstream/master`
@@ -151,7 +151,7 @@ git push origin --delete fix/scheduler-memory-leak    # optional remove remote b
 - [ ] Address reviews on the same branch by pushing new commits
 - [ ] After merge, re-sync master and remove topic branch
 
-## 🏷️ Branch Naming Standards
+##  Branch Naming Standards
 
 - **Fixes**: `fix/<component>-<short>` (e.g., `fix/scheduler-memory-leak`)
 - **Features**: `feat/<component>-<short>` (e.g., `feat/api-validation`)
@@ -184,7 +184,7 @@ Consistent PR creation and automatic issue linking.
 - Always branch from master for new work
 - Master should only receive fast-forward merges from upstream
 
-## 🚨 Common Mistakes to Avoid
+##  Common Mistakes to Avoid
 
 1. **Don't push directly to master** - Always use feature branches
 2. **Don't cherry-pick failed experiments** - Only pick working commits
