@@ -1,12 +1,10 @@
 {
-  "folders": [
-    {"name": "Kubernetes (Main)", "path": "./kubernetes"},
-    {"name": "Learning (Experiments)", "path": "./learning"},
-    {"name": "Go Tools & Config", "path": "."}
-  ],
-  "settings": {
-    "scm.repositories.visible": 10,
-    "scm.alwaysShowRepositories": true,
-    "scm.autoReveal": true
-  }
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"go.useLanguageServer": true
+	}
 }
