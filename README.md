@@ -17,9 +17,12 @@ This repository contains a complete development environment for Go projects, fea
 ## Quick Start
 
 ```bash
-# Clone and setup
-git clone https://github.com/Birhanukassa/go-projects.git
+# Clone the repository and its submodule
+git clone --recurse-submodules https://github.com/Birhanukassa/go-projects.git
 cd go-projects
+
+# If you already cloned without the flag, run this:
+git submodule update --init --recursive
 
 # Enable automation
 scripts/setup-daily-sync.sh
@@ -56,8 +59,8 @@ scripts/resume-experiments.sh   # Resume test-experiments sync
 
 ```
 go-projects/
-├── kubernetes/          # Kubernetes development worktree
-├── learning/           # Safe experimentation environment  
+├── kubernetes/          # Submodule: Your fork of the Kubernetes project
+├── learning/           # Worktree (inside submodule) for safe experimentation
 ├── bin/               # Development tools (kubectl, golangci-lint, etc.)
 ├── scripts/           # Automation and utility scripts
 ├── src/               # Go source code projects

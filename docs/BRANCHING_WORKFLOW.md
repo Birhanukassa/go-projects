@@ -18,8 +18,8 @@
           │
           │ branch from origin/master
           ▼
-┌─────────────────────┐    (worktree: kubernetes/)
-│ LOCAL WORKTREE      │
+┌─────────────────────┐    (submodule: kubernetes/)
+│ LOCAL SUBMODULE     │
 │ path: .../kubernetes│
 │ branch: master      │
 └─────────────────────┘

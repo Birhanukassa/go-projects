@@ -7,7 +7,7 @@ This repository contains a complete Kubernetes development environment with auto
 ### Directory Structure
 ```
 /home/birhanu/go-projects/           # Main development environment
-├── kubernetes/                      # Worktree: master branch (production contributions)
+├── kubernetes/                      # Submodule: Your fork of Kubernetes (production contributions)
 ├── learning/                        # Worktree: test-experiments branch (safe experimentation)
 ├── bin/                            # Development tools (21 tools)
 ├── go/                             # Custom Go 1.21.5 installation
