@@ -158,7 +158,7 @@ git push origin --delete fix/scheduler-memory-leak    # optional remove remote b
 - **Documentation**: `docs/<topic>` (e.g., `docs/contributing-guide`)
 - **Environment**: `env/<short>` (e.g., `env/update-tools`)
 
-## 🔧 Pro Tips
+## Pro Tips
 
 ### Use Fast-Forward Only Merges
 ```bash
