@@ -1,6 +1,6 @@
 # Kubernetes Development Environment Documentation
 
-## 🏗️ Environment Overview
+## Environment Overview
 
 This repository contains a complete Kubernetes development environment with automated syncing, branch protection, and experiment management capabilities.
 
