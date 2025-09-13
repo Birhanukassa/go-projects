@@ -1,6 +1,6 @@
 # Kubernetes Development Environment - Tools Reference
 
-## 🔧 System Tools
+##  System Tools
 
 ### **git** - `/usr/bin/git`
 - **Use:** Version control for Kubernetes source code
@@ -34,7 +34,7 @@
 
 ---
 
-## ☸️ Kubernetes Tools
+##  Kubernetes Tools
 
 ### **kubectl** - `/usr/local/bin/kubectl`
 - **Use:** Kubernetes CLI for cluster management
@@ -73,7 +73,7 @@
 
 ---
 
-## 🐹 Go Development Tools
+##  Go Development Tools
 
 ### **goimports** - `/home/birhanu/go-projects/bin/goimports`
 - **Use:** Auto-format Go code and manage imports
@@ -122,7 +122,7 @@
 
 ---
 
-## ⚡ Performance & Analysis Tools
+##  Performance & Analysis Tools
 
 ### **hey** - `/home/birhanu/go-projects/bin/hey`
 - **Use:** HTTP load testing tool
@@ -141,7 +141,7 @@
 
 ---
 
-## 🔄 Sync & Automation Scripts
+##  Sync & Automation Scripts
 
 ### **local-sync-only.sh**
 - **Use:** Sync both worktrees with upstream (no pushes)
@@ -160,7 +160,7 @@
 
 ---
 
-## 🛠️ Development Workflow Examples
+## Development Workflow Examples
 
 ### **Daily Development**
 ```bash
@@ -220,13 +220,13 @@ tcpdump -i any port 6443
 
 ---
 
-## 📍 Tool Locations
+##  Tool Locations
 - **System tools:** `/usr/bin/` or `/usr/local/bin/`
 - **Custom tools:** `/home/birhanu/go-projects/bin/`
 - **Go binary:** `/home/birhanu/go-projects/go/bin/go`
 - **PATH:** Updated in `~/.zshrc` to include custom bin directory
 
-## 🔧 Environment Variables
+##  Environment Variables
 - **GOROOT:** `/home/birhanu/go-projects/go`
 - **PATH:** Includes `/home/birhanu/go-projects/bin`
 - **Auto-sync:** Runs every hour via cron job
