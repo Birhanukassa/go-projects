@@ -3,9 +3,6 @@ pkg/
 src/
 *.tar.gz
 
-# Kubernetes repo (tracked separately)
-kubernetes/
-
 # Go installation and tools
 go/
 bin/
@@ -13,3 +10,6 @@ bin/
 # Setup files
 .bashrc*
 test.golearning/
+
+# Ignored worktrees
+learning/
